@@ -7,6 +7,10 @@
       {
         "id": 2,
         "nev": "Bibo"
+      },
+      {
+        "id": 3,
+        "nev": "Niki"
       }
     ],
     "tasks": [
