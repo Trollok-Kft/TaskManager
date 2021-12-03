@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="hu">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/szerkezet.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/szerkezet.css" />
     <title>Bartucz Petra</title>
-    <link rel="stylesheet" href="../css/task.css">
-    <link rel="stylesheet" href="../css/user.css">
+    <link rel="stylesheet" href="../css/task.css" />
+    <link rel="stylesheet" href="../css/user.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="task.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <header>Task Manager</header>
-        <nav><a href="index.html">Feladatok</a>
-            <a href="user.html">Felhasználók</a>
-        </nav>
-        <article>
-            <div class="taskSablon">
-                <h3></h3>
-                <p class="description"></p>
-                <p class="end-date"></p>
-                <p class="userId"></p>
-                <p class="status"></p>
-                <button class="modosit">Módosítás</button>
-                <button class="torles">Törlés</button>
-            </div>
-        </article>
-        <footer>Bartucz Petra</footer>
+      <header>Task Manager</header>
+      <nav>
+        <a href="index.html">Feladatok</a>
+        <a href="user.html">Felhasználók</a>
+      </nav>
+      <section>
+        <form>
+          <label for="id">ID</label>
+          <input type="text" id="id" name="id" /><br>
+          <label for="cim">Cím</label>
+          <input type="text" id="cim" name="cim" /><br>
+          <label for="leiras">Leírás</label>
+          <textarea cols="20" rows="4"></textarea><br>
+          <label for="statusz">Státusz</label>
+          <select name="statusz" id="statusz">
+            <option value="tanulo">Tanulo</option>
+          </select><br>
+          <label for="ido">Határidő</label>
+          <input type="date" id="ido" name="ido" /><br>
+          <input type="button" id="ujTask" value="Új Task">
+        </form>
+      </section>
+      <article>
+        <div class="taskSablon">
+          <h3></h3>
+          <p class="description"></p>
+          <p class="end-date"></p>
+          <p class="userId"></p>
+          <p class="status"></p>
+          <button class="modosit">Módosítás</button>
+          <button class="torles">Törlés</button>
+        </div>
+      </article>
+      <footer>Bartucz Petra</footer>
     </main>
-</body>
-
+  </body>
 </html>
