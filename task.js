@@ -17,7 +17,7 @@ class Task {
         this.cim.html(adat.title);
         this.leiras.html(adat.description);
         this.hatarido.html(adat.enddate);
-        this.user.html(adat.userId);
+        this.user.html(adat.user.nev);
         this.status.html(adat.status);
     }
 

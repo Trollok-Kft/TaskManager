@@ -1,7 +1,7 @@
 $(function () {
     const ajax=new AjaxHivas();
 
-    const eleresiUt="http://localhost:3000/tasks";
+    const eleresiUt="http://localhost:3000/tasks?_expand=user";
 
     ajax.getAjax(eleresiUt,adatKiiras);
 
