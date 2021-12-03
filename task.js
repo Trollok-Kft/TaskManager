@@ -14,10 +14,10 @@ class Task {
     }
 
     setAdatok(adat) {
-        this.cim.html(adat.cim);
-        this.leiras.html(adat.leiras);
-        this.hatarido.html(adat.hatarido);
-        this.user.html(adat.user);
+        this.cim.html(adat.title);
+        this.leiras.html(adat.description);
+        this.hatarido.html(adat.enddate);
+        this.user.html(adat.userId);
         this.status.html(adat.status);
     }
 
