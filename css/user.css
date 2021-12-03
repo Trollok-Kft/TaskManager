@@ -9,7 +9,7 @@ table{
 }
 
 table, td, th {
-    border: 1px solid rgb(208, 228, 235);
+    border: 1px solid lightblue;
 }
 
 th{
@@ -20,4 +20,4 @@ td{
     text-align: left;
 }
 
-tr:nth-child(even) {background-color: lightblue;}
+tr:nth-child(even) {background-color: rgb(196, 229, 240);}

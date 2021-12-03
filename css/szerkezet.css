@@ -34,3 +34,25 @@ header{
 article{
     grid-area: a;
 }
+
+.taskSablon{
+    display: grid;
+    grid-template-areas: 
+    "h h h"
+    "d d d"
+    "e u s"
+    "m m t";
+}
+
+h3{grid-area: h;}
+.description{grid-area: d;}
+.end-date{grid-area: e;}
+.userId{grid-area: u;}
+.status{grid-area: s;}
+.modosit{grid-area: m; width: 100px;}
+.torles{grid-area: t; width: 100px;}
+
+footer{
+    margin-top: 5px;
+    text-align: center;
+}
