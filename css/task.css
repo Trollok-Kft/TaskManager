@@ -7,5 +7,9 @@ div{
     margin: 10px;
 }
 .torles{
-    float: right;
+    float: right !important;
+}
+b{
+    padding: 10px;
+    font-weight: lighter;
 }
