@@ -1,7 +1,15 @@
 @charset "utf-8";
 
 table{
-    border-collapse: collapse;
+    width: 80%;
+    border-collapse:collapse;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table, td, th {
+    border: 1px solid rgb(208, 228, 235);
 }
 
 th{
