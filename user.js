@@ -9,8 +9,8 @@ class User{
     }
     
     setAdatok(adat) {
-        this.idelem = html(adat.id);
-        this.nevelem = html(adat.nev);
+        this.idelem.html(adat.id);
+        this.nevelem.html(adat.nev);
         }
 
       kattintasTrigger(esemenyneve) {

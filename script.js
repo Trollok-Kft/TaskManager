@@ -4,8 +4,8 @@ $(function () {
   ajaxHivas.getAjax(fajlnev, nevLista);
 
   function nevLista(users) {
-    const szuloElem = $(".user");
-    const sablonElem = $(".tabla");
+    const szuloElem = $(".tabla");
+    const sablonElem = $(".user");
     users.forEach(function (adat) {
       let ujElem = sablonElem.clone().appendTo(szuloElem);
       const user = new User(ujElem, adat);
