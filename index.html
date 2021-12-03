@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +12,7 @@
     <script src="js/ajax.js"></script>
     <script src="js/task.js"></script>
     <script src="js/js.js"></script>
-</head>
+  </head>
   <body>
     <main>
       <header>Task Manager</header>
@@ -22,32 +21,37 @@
         <a href="user.html">Felhasználók</a>
       </nav>
       <section>
+        <label for="keres">Keresés:</label>
+        <input type="text" id="keres" />
         <form>
           <fieldset>
             <legend>Task:</legend>
-          <label for="id">ID</label>
-          <input type="text" id="id" name="id" /><br>
-          <label for="cim">Cím</label>
-          <input type="text" id="cim" name="cim" /><br>
-          <label for="leiras">Leírás</label>
-          <textarea cols="20" rows="4"></textarea><br>
-          <label for="statusz">Státusz</label>
-          <select name="statusz" id="statusz">
-            <option value="tanulo">Tanulo</option>
-          </select><br>
-          <label for="ido">Határidő</label>
-          <input type="date" id="ido" name="ido" /><br>
-          <input type="button" id="ujTask" value="Új Task">
-        </fieldset>
+            <label for="id">ID</label>
+            <input type="text" id="id" name="id" /><br />
+            <label for="cim">Cím</label>
+            <input type="text" id="cim" name="cim" /><br />
+            <label for="leiras">Leírás</label>
+            <textarea cols="20" rows="4"></textarea><br />
+            <label for="statusz">Státusz</label>
+            <select name="statusz" id="statusz">
+              <option value="tanulo">Tanulo</option></select
+            ><br />
+            <label for="ido">Határidő</label>
+            <input type="date" id="ido" name="ido" /><br />
+            <input type="button" id="ujTask" value="Új Task" />
+          </fieldset>
         </form>
       </section>
-      <article>
+      <article class="task">
+
+      </article>
+      <article id="sablon">
         <div class="taskSablon">
           <h3></h3>
           <p class="description"></p>
-            <p class="end-date"></p>
-            <p class="userId"></p>
-            <p class="status"></p>        
+          <p class="end-date"></p>
+          <p class="userId"></p>
+          <p class="status"></p>
           <button class="modosit">Módosítás</button>
           <button class="torles">Törlés</button>
         </div>
