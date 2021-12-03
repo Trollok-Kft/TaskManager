@@ -1,0 +1,30 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "nev": "Petra"
+      },
+      {
+        "id": 2,
+        "nev": "Bibo"
+      }
+    ],
+    "tasks": [
+      {
+        "id": 1,
+        "title": "feladat_1",
+        "description": "Task rögzítése űrlap",
+        "end-date": "2021-12-03",
+        "userId": 1,
+        "status": "tanulo"
+      },
+      {
+        "id": 2,
+        "title": "feladat_2",
+        "description": "Taskok megjelenítése",
+        "end-date": "2021-12-03",
+        "userId": 2,
+        "status": "tanulo"
+      }
+    ]
+  }
